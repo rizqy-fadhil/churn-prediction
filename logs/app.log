@@ -1,0 +1,47 @@
+2026-06-19 01:57:12 - root - INFO - Logging configured successfully.
+2026-06-19 01:58:21 - root - INFO - Logging configured successfully.
+2026-06-19 01:58:26 - root - INFO - Logging configured successfully.
+2026-06-19 01:58:26 - root - INFO - Logging configured successfully.
+2026-06-19 01:58:26 - main - INFO - Starting up: loading ML model...
+2026-06-19 02:00:17 - root - INFO - Logging configured successfully.
+2026-06-19 02:00:21 - root - INFO - Logging configured successfully.
+2026-06-19 02:00:21 - root - INFO - Logging configured successfully.
+2026-06-19 02:00:21 - main - INFO - Starting up: loading ML model...
+2026-06-19 02:00:31 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-19 02:00:31 - services.model_loader - INFO - Using device: cpu
+2026-06-19 02:02:16 - root - INFO - Logging configured successfully.
+2026-06-19 02:02:19 - root - INFO - Logging configured successfully.
+2026-06-19 02:02:20 - root - INFO - Logging configured successfully.
+2026-06-19 02:02:20 - main - INFO - Starting up: loading ML model...
+2026-06-19 02:02:21 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-19 02:02:21 - services.model_loader - INFO - Using device: cpu
+2026-06-19 02:02:22 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-19 02:02:22 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-19 02:02:22 - main - INFO - Application ready
+2026-06-19 02:03:02 - main - INFO - Root endpoint accessed
+2026-06-19 02:03:03 - main - INFO - Root endpoint accessed
+2026-06-19 02:03:04 - main - INFO - Root endpoint accessed
+2026-06-19 02:03:04 - main - INFO - Root endpoint accessed
+2026-06-19 02:03:05 - main - INFO - Root endpoint accessed
+2026-06-19 02:03:24 - main - INFO - Root endpoint accessed
+2026-06-19 02:04:43 - routers.churn_routers - INFO - Received churn prediction request
+2026-06-19 02:04:43 - core.exceptions - ERROR - Preprocessing Error: Preprocessing failed: columns are missing: {'Customer service calls', 'Total eve charge', 'Total night charge', 'Voice mail plan', 'Number vmail messages', 'Total night minutes', 'Total intl minutes', 'Total intl charge', 'Total day minutes', 'Account length', 'Total day calls', 'Total day charge', 'Total intl calls', 'Total night calls', 'Total eve calls', 'Total eve minutes', 'International plan'}
+2026-06-19 02:05:08 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-19 02:05:08 - core.exceptions - ERROR - Unhandled Exception: Could not determine join condition between parent/child tables on relationship ChurnPredictionInput.prediction - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-06-19 02:05:12 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-19 02:05:12 - core.exceptions - ERROR - Unhandled Exception: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[ChurnPredictionInput(churn_prediction_input)]'. Original exception was: Could not determine join condition between parent/child tables on relationship ChurnPredictionInput.prediction - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-06-19 02:10:33 - root - INFO - Logging configured successfully.
+2026-06-19 02:10:37 - root - INFO - Logging configured successfully.
+2026-06-19 02:10:37 - root - INFO - Logging configured successfully.
+2026-06-19 02:10:37 - main - INFO - Starting up: loading ML model...
+2026-06-19 02:10:39 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-19 02:10:39 - services.model_loader - INFO - Using device: cpu
+2026-06-19 02:10:39 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-19 02:10:39 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-19 02:10:39 - main - INFO - Application ready
+2026-06-19 02:10:56 - routers.churn_routers - INFO - Received churn prediction request
+2026-06-19 02:10:56 - core.exceptions - ERROR - Preprocessing Error: Preprocessing failed: columns are missing: {'Customer service calls', 'Total intl charge', 'Total day calls', 'Total night charge', 'Total intl minutes', 'Total intl calls', 'Account length', 'Total night minutes', 'Total eve charge', 'Total eve minutes', 'Total night calls', 'Voice mail plan', 'Total eve calls', 'International plan', 'Total day minutes', 'Total day charge', 'Number vmail messages'}
+2026-06-19 02:11:07 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-19 02:11:09 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-19 02:11:19 - main - INFO - Root endpoint accessed
+2026-06-19 02:11:20 - main - INFO - Root endpoint accessed

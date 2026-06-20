@@ -15,7 +15,6 @@ from services.model_loader import _ModelStore
 
 logger = get_logger(__name__)
 
-# Kolom fitur sesuai urutan dataset
 FEATURE_COLUMNS = [
     "account_length", "number_vmail_messages",
     "total_day_minutes", "total_day_calls", "total_day_charge",
@@ -25,6 +24,26 @@ FEATURE_COLUMNS = [
     "customer_service_calls", "international_plan", "voice_mail_plan",
 ]
 
+COLUMN_MAPPING = {
+    "account_length": "Account length",
+    "number_vmail_messages": "Number vmail messages",
+    "total_day_minutes": "Total day minutes",
+    "total_day_calls": "Total day calls",
+    "total_day_charge": "Total day charge",
+    "total_eve_minutes": "Total eve minutes",
+    "total_eve_calls": "Total eve calls",
+    "total_eve_charge": "Total eve charge",
+    "total_night_minutes": "Total night minutes",
+    "total_night_calls": "Total night calls",
+    "total_night_charge": "Total night charge",
+    "total_intl_minutes": "Total intl minutes",
+    "total_intl_calls": "Total intl calls",
+    "total_intl_charge": "Total intl charge",
+    "customer_service_calls": "Customer service calls",
+    "international_plan": "International plan",
+    "voice_mail_plan": "Voice mail plan",
+}
+
 CONFIDENCE_THRESHOLD = 0.5
 
 
@@ -32,7 +51,7 @@ CONFIDENCE_THRESHOLD = 0.5
 def predict_churn(db: Session, request_data: ChurnRequest) -> dict:
     try:
         input_dict = request_data.model_dump()
-        df = pd.DataFrame([{col: input_dict[col] for col in FEATURE_COLUMNS}])
+        df = pd.DataFrame([{COLUMN_MAPPING[col]: input_dict[col] for col in FEATURE_COLUMNS}])
     except Exception as exc:
         raise PreprocessingError(f"Failed to build input DataFrame: {exc}") from exc
 

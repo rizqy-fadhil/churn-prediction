@@ -116,7 +116,7 @@ class ModelInfoScreen extends StatelessWidget {
                 _buildInfoRow('Total Rows', '3,333 records'),
                 _buildInfoRow('Features', '17 input features'),
                 _buildInfoRow('Target', 'Churn (True/False)'),
-                _buildInfoRow('Train/Test Split', '80% / 20%'),
+                _buildInfoRow('Train/Validation/Test Split', '80% / 10% / 10%'),
               ],
             ),
 

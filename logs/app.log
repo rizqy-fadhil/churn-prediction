@@ -144,3 +144,12 @@
 2026-06-20 18:43:55 - routers.churn_routers - INFO - Received churn prediction request
 2026-06-20 18:43:56 - services.churn_services - INFO - Prediction done — id=12, label=Not Churn, prob=0.0014, time=255ms
 2026-06-20 18:44:15 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-23 12:50:00 - root - INFO - Logging configured successfully.
+2026-06-23 12:50:05 - root - INFO - Logging configured successfully.
+2026-06-23 12:50:05 - root - INFO - Logging configured successfully.
+2026-06-23 12:50:05 - main - INFO - Starting up: loading ML model...
+2026-06-23 12:50:12 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-23 12:50:12 - services.model_loader - INFO - Using device: cpu
+2026-06-23 12:50:12 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-23 12:50:13 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-23 12:50:13 - main - INFO - Application ready

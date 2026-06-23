@@ -47,11 +47,11 @@ class ModelInfoScreen extends StatelessWidget {
               title: 'Performance Metrics',
               icon: Icons.bar_chart,
               children: [
-                _buildMetricRow('Accuracy', '95.89%', Colors.green),
-                _buildMetricRow('Precision', '89.58%', Colors.blue),
-                _buildMetricRow('Recall', '70.49%', Colors.orange),
-                _buildMetricRow('F1 Score', '78.90%', Colors.purple),
-                _buildMetricRow('AUC-ROC', '94.74%', Colors.teal),
+                _buildMetricRow('Accuracy', '96.07%', Colors.green),
+                _buildMetricRow('Precision', '91.67%', Colors.blue),
+                _buildMetricRow('Recall', '70.97%', Colors.orange),
+                _buildMetricRow('F1 Score', '80.00%', Colors.purple),
+                _buildMetricRow('AUC-ROC', '85.08%', Colors.teal),
               ],
             ),
 

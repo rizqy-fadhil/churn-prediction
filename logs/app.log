@@ -119,3 +119,28 @@
 2026-06-19 19:22:34 - routers.churn_routers - INFO - Received churn prediction request
 2026-06-19 19:22:35 - services.churn_services - INFO - Prediction done — id=11, label=Not Churn, prob=0.0040, time=93ms
 2026-06-19 19:22:42 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-20 18:11:37 - root - INFO - Logging configured successfully.
+2026-06-20 18:11:53 - root - INFO - Logging configured successfully.
+2026-06-20 18:11:53 - root - INFO - Logging configured successfully.
+2026-06-20 18:11:53 - main - INFO - Starting up: loading ML model...
+2026-06-20 18:12:18 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-20 18:12:18 - services.model_loader - INFO - Using device: cpu
+2026-06-20 18:12:18 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-20 18:12:18 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-20 18:12:18 - main - INFO - Application ready
+2026-06-20 18:35:28 - root - INFO - Logging configured successfully.
+2026-06-20 18:35:51 - root - INFO - Logging configured successfully.
+2026-06-20 18:35:52 - root - INFO - Logging configured successfully.
+2026-06-20 18:35:52 - main - INFO - Starting up: loading ML model...
+2026-06-20 18:36:33 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-20 18:36:33 - services.model_loader - INFO - Using device: cpu
+2026-06-20 18:36:33 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-20 18:36:34 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-20 18:36:34 - main - INFO - Application ready
+2026-06-20 18:36:52 - main - INFO - Root endpoint accessed
+2026-06-20 18:37:49 - main - INFO - Root endpoint accessed
+2026-06-20 18:40:14 - main - INFO - Root endpoint accessed
+2026-06-20 18:43:30 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-20 18:43:55 - routers.churn_routers - INFO - Received churn prediction request
+2026-06-20 18:43:56 - services.churn_services - INFO - Prediction done — id=12, label=Not Churn, prob=0.0014, time=255ms
+2026-06-20 18:44:15 - routers.churn_routers - INFO - Fetching all churn predictions

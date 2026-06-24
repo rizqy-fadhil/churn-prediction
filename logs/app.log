@@ -153,3 +153,23 @@
 2026-06-23 12:50:12 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
 2026-06-23 12:50:13 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
 2026-06-23 12:50:13 - main - INFO - Application ready
+2026-06-23 12:56:10 - root - INFO - Logging configured successfully.
+2026-06-23 12:56:13 - root - INFO - Logging configured successfully.
+2026-06-23 12:56:13 - root - INFO - Logging configured successfully.
+2026-06-23 12:56:13 - main - INFO - Starting up: loading ML model...
+2026-06-23 12:56:14 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-23 12:56:14 - services.model_loader - INFO - Using device: cpu
+2026-06-23 12:56:14 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-23 12:56:14 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-23 12:56:14 - main - INFO - Application ready
+2026-06-23 13:01:58 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-23 13:02:18 - routers.churn_routers - INFO - Fetching all churn predictions
+2026-06-24 14:17:45 - root - INFO - Logging configured successfully.
+2026-06-24 14:18:07 - root - INFO - Logging configured successfully.
+2026-06-24 14:18:08 - root - INFO - Logging configured successfully.
+2026-06-24 14:18:08 - main - INFO - Starting up: loading ML model...
+2026-06-24 14:18:41 - services.model_loader - INFO - Preprocessor loaded from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\preprocessor.pkl
+2026-06-24 14:18:41 - services.model_loader - INFO - Using device: cpu
+2026-06-24 14:18:41 - services.model_loader - INFO - Detected input dlm - dim: 19 from preprocessor
+2026-06-24 14:18:42 - services.model_loader - INFO - Model loaded successfully from C:\File Fadhil\Universitas Airlangga\SEMESTER 4\Pembelajaran Mesin (praktikum)\UAS\CHURN-PREDICTION\models\churn_model.pth
+2026-06-24 14:18:42 - main - INFO - Application ready
